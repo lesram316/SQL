@@ -1,0 +1,18 @@
+SELECT *
+FROM superstore
+ORDER BY price desc;
+
+SELECT MAX(price), item_name
+FROM superstore;
+
+SELECT MIN(price), item_name
+FROM superstore;
+
+SELECT *
+FROM superstore
+WHERE category = "Kitchen Supplies"
+ORDER BY price asc;
+
+SELECT stock_quantity
+FROM superstore
+WHERE item_name = "Smart LED TV";
